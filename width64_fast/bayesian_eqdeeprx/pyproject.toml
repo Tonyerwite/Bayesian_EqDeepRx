@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bayesian_eqdeeprx"
+version = "0.1.0"
+description = "Standalone four-round Bayesian EqDeepRx multi-layer receiver"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.11,<3",
+    "sionna>=2.1,<2.2",
+    "numpy>=2.5,<3",
+    "scipy>=1.18,<2",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=9,<10"]
+
+[tool.setuptools]
+packages = ["bayesian_eqdeeprx"]
+package-dir = {bayesian_eqdeeprx = "."}
+
+[tool.setuptools.package-data]
+bayesian_eqdeeprx = ["pretrained_denoiser.pt"]

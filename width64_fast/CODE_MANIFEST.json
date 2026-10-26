@@ -1,0 +1,84 @@
+{
+  "version": "width64_fast_batch112",
+  "source_fingerprint": "6e540e10b99014ad718ba57a488e684ee122320a72d55d09641803cbc0310b89",
+  "execution": {
+    "width": 64,
+    "batch_size": 112,
+    "generation_batch_size": 2,
+    "model_microbatch_size": 8,
+    "message_chunk_size": 8192,
+    "factor_gather": true,
+    "geometry_graphs": true,
+    "projection": "eager",
+    "cpu_threads": 4,
+    "cuda_memory_fraction": 0.85
+  },
+  "formal_training_started": false,
+  "prepared_checkpoint": "D:\\BayesianEqDeepRxRuns\\width64_fast_batch112\\bayesian_eqdeeprx.pt",
+  "prepared_next_step": 282,
+  "prepared_checkpoint_sha256": "a36900daa792ff9c46301b060bff1eddbce60ecf62134dc71d29417ddd86da06",
+  "original_checkpoint_sha256": "c6583bfc9088c4541b6243a87d048bd44d6fca2b97edc4b2f78a06d244b23fba",
+  "checkpoint_tensors_optimizer_scaler_rng_history_preserved": true,
+  "files": {
+    "bayesian_eqdeeprx/__init__.py": "4e8fafb0aa73a06d26be0bec790e79596e8696114c4494fe4c0275f01854bb80",
+    "bayesian_eqdeeprx/__main__.py": "8a7c0d002bf0410cb5749f4112c30c225fea7e3ddb2af6e2bae3c27d0ec80fec",
+    "bayesian_eqdeeprx/belief.py": "14a40cda3be4821ed0739060f7849e5284114b5a6d78ec83849fb32151ff4268",
+    "bayesian_eqdeeprx/channel_execution.py": "7a17316a7ddb76f5302fd9a26b8e3b2010275cd1438b003eb4c42ec61c779cf1",
+    "bayesian_eqdeeprx/components.py": "2bec5ff97823468731973a0e32c8c69dc5d28ef7a5dda1bff20f741326fac5d4",
+    "bayesian_eqdeeprx/config.py": "58c8b86ae0429ec6d4124730eb58974aede0e49f74627e2d284fd1cf26d31d64",
+    "bayesian_eqdeeprx/front_end.py": "b066b4baa3892e4e3463d6d2e2d4ad4753021d1d19efed1e5056ec977424b266",
+    "bayesian_eqdeeprx/layers.py": "d68a6faaa880d3a250c536759b665f0ad6ce65aef66930e6e7de0082687026c6",
+    "bayesian_eqdeeprx/loss.py": "8dd981418b8e0f05b725080f43e75437708316795c59b607d3bdbe9b405d4de3",
+    "bayesian_eqdeeprx/model.py": "be388d1e4ac4296f15fd7caf281db18254a30c3a3e3fab8f0c6d9f7947089d10",
+    "bayesian_eqdeeprx/networks.py": "facedda557235891c0f3fb51801353b3c43487839df34596e69a1d77fef24c6f",
+    "bayesian_eqdeeprx/pretrained_denoiser.pt": "63a90855c9415c62581ce3fdbcb729cda64e80723378cd3914ead5f3b8bb1853",
+    "bayesian_eqdeeprx/provenance.py": "9ec96d0cd4678a3f91b6fc0b1368399057dc604b461a2378ed155d6a97dcd420",
+    "bayesian_eqdeeprx/pyproject.toml": "4ffe713c80d417a47f5a99efc59eb40186fbec609838cdd176d7be841b673f6d",
+    "bayesian_eqdeeprx/qam_signal.py": "3bb945b1a12950d267689f0c2ef4c7becd52ba3a010dab815832561ab5572d94",
+    "bayesian_eqdeeprx/receiver.py": "6b808abf3b7586942bb646e3b2fd7133b70b27f8659b0aef92998047259602bc",
+    "bayesian_eqdeeprx/sionna_phy.py": "b3db881756beafb24afd062c834b18315ce43c0560578bbf1fb690969f7a92d8",
+    "bayesian_eqdeeprx/sionna_system.py": "4f1e3ecb2f2c6c4259f4184beafbef9206322da3f571bf2be0270759fab3ed7e",
+    "bayesian_eqdeeprx/train.ps1": "c7028d49595f81587995ac0470033d68735a434e406b1fcdb05d84ca38d382d1",
+    "bayesian_eqdeeprx/training.py": "8b462c8e42851e6ce25134e2524c47aa7dced18ea8bbc0e571473b6be11421f2"
+  },
+  "cleanup": {
+    "Complete": true,
+    "Method": "Windows Recycle Bin (recoverable), not permanent erasure",
+    "RetiredDirectories": [
+      ".pytest_cache",
+      "23globcom_neuralRX-main",
+      "eqdeeprx",
+      "parameter_study",
+      "width64_trial",
+      "width64_speedlab",
+      "D:\\BayesianEqDeepRxRuns\\speedlab_width64"
+    ],
+    "Old128FileCount": 65,
+    "Old128AllFilesUnchanged": true,
+    "Old128ManifestDigest": "98242b6d76795855646cabb82de5504dc3f8cb54fd489b12eeeb9da9c0160d1b",
+    "OriginalZipKept": true,
+    "FormalRecordsUnchanged": true,
+    "FormalRecordFilesChecked": 21,
+    "FormalDirectoriesKept": [
+      "D:\\BayesianEqDeepRxRuns\\batch8_70000",
+      "D:\\BayesianEqDeepRxRuns\\strict_70000",
+      "D:\\BayesianEqDeepRxRuns\\width64_batch112_match46776"
+    ],
+    "HistoricalDocumentsKept": "docs/历史说明",
+    "FormalTrainingStarted": false
+  },
+  "final_integrity": {
+    "source_fingerprint_matches_verified_code": true,
+    "relocated_runtime_imports_and_sionna_initializes": true,
+    "prepared_checkpoint_complete_at_step": 282,
+    "optimizer_state_errors": [],
+    "model_optimizer_scaler_rng_history_preserved": true,
+    "formal_training_started": false,
+    "supervisors": [
+      "PAUSED",
+      "PAUSED"
+    ],
+    "no_test_files_or_bytecode_in_new_version": true,
+    "retired_experiment_directories_absent": true
+  }
+}

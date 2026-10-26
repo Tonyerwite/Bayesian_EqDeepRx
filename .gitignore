@@ -1,0 +1,34 @@
+# Publish only the two width-64 implementations and their documentation.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/width64_fast/
+!/width64_joint/
+
+# Local environments, generated files, and training outputs.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+runtime/
+artifacts/
+runs/
+*.log
+*.jsonl
+*.pid
+*.tmp
+*.pt
+*.pth
+*.ckpt
+.env
+.env.*
+
+# Required, immutable DenoiseNN input asset for the frozen-front-end model.
+!/width64_fast/bayesian_eqdeeprx/pretrained_denoiser.pt

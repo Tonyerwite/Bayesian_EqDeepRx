@@ -1,0 +1,2 @@
+# Source/checkpoint provenance hashes depend on exact bytes. Preserve line endings.
+* -text
