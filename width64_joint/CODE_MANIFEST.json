@@ -23,7 +23,7 @@
     "bayesian_eqdeeprx/sionna_system.py": "4f1e3ecb2f2c6c4259f4184beafbef9206322da3f571bf2be0270759fab3ed7e",
     "bayesian_eqdeeprx/train.ps1": "bc25bf04311b2cb14cb7902969493c4246638811583cd16a9639205a0299f7dd",
     "bayesian_eqdeeprx/training.py": "1364bd86136046361fc3b8bd57c9483b176c8910ef23aeed4714285cce596de1",
-    "README.md": "3d96a8250d01cd73a378de2b4aad032abd46cbac13383ae13211edd2ada8b455",
+    "README.md": "a395f5dc92d679b980de278fc4202bed4465eb9a2d32adea398e593eb2e3c09b",
     "tests/conftest.py": "2511c6950e2ed13a91a7f66ddc18e4ee90937d47b7f260ac29c0d7c255a1802e",
     "tests/test_cli.py": "6186e45a17e7a2c4ed28da326ffbb3d1a694d7acf91811c1631a74607868d57f",
     "tests/test_joint_training.py": "531f185f9cd60787ede9c33d9ce9ac078b6c0c4955a0dd56b02953394c447c3b",
