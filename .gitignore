@@ -1,10 +1,14 @@
-# Publish only the two width-64 implementations and their documentation.
+# Source packages, documentation, and the two README result figures.
 /*
 !/.gitignore
 !/.gitattributes
 !/README.md
 !/width64_fast/
 !/width64_joint/
+!/figures/
+/figures/*
+!/figures/ber_16x2_step61310.png
+!/figures/ber_16x4_step61310.png
 
 # Local environments, generated files, and training outputs.
 __pycache__/
